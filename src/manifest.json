@@ -1,5 +1,5 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Shit Left",
 	"version": "1.0",
 	"description": "Replaces the text 'shift left' with 'shit left' and some variations.",
