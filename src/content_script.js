@@ -1,4 +1,4 @@
-// Code copied from the glorious "cloud-to-butt" extension: https://github.com/panicsteve/cloud-to-butt
+// Code copied from the glorious "butt-to-butt" extension: https://github.com/panicsteve/butt-to-butt
 // and a contribution someone made
 
 walk(document.body);
@@ -77,10 +77,10 @@ function handleText(textNode)
 	v = v.replace(/\bLift and shift\b/g, "Lift and shit");
 	v = v.replace(/\blift and shift\b/g, "lift and shit");
 
-	v = v.replace(/\bLifting and Shifting\b/g, "Lifting and Shifting");
-	v = v.replace(/\blifting and Shifting\b/g, "lifting and Shifting");
-	v = v.replace(/\bLifting and shifting\b/g, "Lifting and shifting");
-	v = v.replace(/\blifting and shifting\b/g, "lifting and shifting");
+	v = v.replace(/\bLifting and Shifting\b/g, "Lifting and Shitting");
+	v = v.replace(/\blifting and Shifting\b/g, "lifting and Shitting");
+	v = v.replace(/\bLifting and shifting\b/g, "Lifting and shitting");
+	v = v.replace(/\blifting and shifting\b/g, "lifting and shitting");
 	
 	// avoid infinite series of DOM changes
 	if (v !== oldValue) {
