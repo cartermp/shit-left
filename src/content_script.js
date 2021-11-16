@@ -81,6 +81,12 @@ function handleText(textNode)
 	v = v.replace(/\blifting and Shifting\b/g, "lifting and Shitting");
 	v = v.replace(/\bLifting and shifting\b/g, "Lifting and shitting");
 	v = v.replace(/\blifting and shifting\b/g, "lifting and shitting");
+
+	
+	v = v.replace(/\bBig Data\b/g, "Big Butt");
+	v = v.replace(/\bBig data\b/g, "Big butt");
+	v = v.replace(/\bbig Data\b/g, "big Butt");
+	v = v.replace(/\bbig data\b/g, "big butt");
 	
 	// avoid infinite series of DOM changes
 	if (v !== oldValue) {
